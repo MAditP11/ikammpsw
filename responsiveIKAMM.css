@@ -1,0 +1,70 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+    background-image: url(https://cdn-2.tstatic.net/lampung/foto/bank/images/ikamm-pringsewu.jpg);
+    background-size: cover;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-left h1 {
+    font-size: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 7px;
+    text-align: center;
+  }
+}
